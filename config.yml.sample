@@ -1,0 +1,10 @@
+createSite:
+  installerRepo: 'git@github.com:my/repo'
+  branches: ['some', 'branches']
+  installDir: '/path/to/install'
+bitBucket:
+  account: 'my-account'
+  user: 'myusername'
+sshKey:
+  localPath: '/my/path/to/sshkey/id_rsa'
+  copyDir: 'myKeysDir' #relative to current directory
